@@ -15,3 +15,15 @@ node_modules
 # Editor
 .vscode/
 .idea/
+
+# keep general ignores but allow committed photos in the photos/ folder
+!photos/
+!photos/*.jpg
+!photos/*.jpeg
+!photos/*.png
+
+# allow root-level named photos used by invitation.html
+!/photo1.jpg
+!/photo2.jpg
+!/photo3.jpg
+!/photo4.jpg
