@@ -571,6 +571,24 @@
       .front-note,.invite-text{font-size:.95rem}
     }
 
+    /* Mobile layout fixes: allow natural flow and scrolling */
+    @media (max-width: 820px) {
+      body { overflow: auto; }
+      .app{
+        position:static;
+        width:100%;
+        height:auto;
+        margin:18px auto;
+        top:auto;
+        transform:none;
+        perspective:none;
+        padding:0 12px;
+      }
+      .shell{position:relative; inset:auto}
+      .screen{position:relative; inset:auto; height:auto; border-radius:20px}
+      .front, .shayari, .invite{position:relative}
+    }
+
     @media (max-width: 480px){
       .invite-card{padding:20px 14px 18px}
       .photos{grid-template-columns:1fr 1fr}
