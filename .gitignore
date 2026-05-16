@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Node (if any)
+node_modules
+
+# audio files if you don't want to commit
+*.mp3
+
+# images generated locally
+*.png
+*.jpg
+*.jpeg
+
+# Editor
+.vscode/
+.idea/
